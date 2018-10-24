@@ -20,6 +20,8 @@ const cleanCityInput = (city) => city.split(' ').join('+')
 
 function displayCurrentWeatherr(json) {
  const 
+ 
+ document.querySelector('#low').appendchild(lowTempParagraph)
 }
 
 function displayCurrentWeather(json) {
