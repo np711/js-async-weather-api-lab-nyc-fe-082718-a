@@ -6,9 +6,11 @@ const API_KEY = "0848cb65501a1c1c1454986d28e486c4"
 
 //temps
 
-document.addEventListener('DOMContentLoaded', () => {})
-function fetchCurrentWeather(city) {
-  //handle submit event
+document.addEventListener('DOMContentLoaded', () => { const submitButton = document.querySelector('submit-button').addEventListener('click', handleFormSubmit)
+}
+
+function handleFormSubmit(event) {
+ event.preventDefault()
 }
 
 function fetchCurrentWeather(city) {
