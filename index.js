@@ -1,5 +1,12 @@
-const API_KEY = "YOUR API KEY"
+const API_KEY = "0848cb65501a1c1c1454986d28e486c4"
 
+
+
+//humidty us at: json.main.humidty
+
+//temps
+
+document.addEventListener('DOMContentLoaded', () => {})
 function fetchCurrentWeather(city) {
   //handle submit event
 }
