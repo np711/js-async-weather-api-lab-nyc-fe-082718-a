@@ -12,7 +12,8 @@ document.addEventListener('DOMContentLoaded', () => { const submitButton = docum
 function handleFormSubmit(event) {
  event.preventDefault()
  document.querySelector('city').value
- fetch('')
+ 
+const city = document.querySelector('cityhttps://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=${)
 }
 
 function fetchCurrentWeather(city) {
