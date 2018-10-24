@@ -15,9 +15,11 @@ function handleFormSubmit(event) {
  
 const city = document.querySelector('cityhttps://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=${)
 }
+const cleanCityInput = (city) => city.split(' ').join('+')
 
-function fetchCurrentWeather(city) {
-  //fetch current weather based on city
+
+function displayCurrentWeatherr(json) {
+ const 
 }
 
 function displayCurrentWeather(json) {
