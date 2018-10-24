@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => { const submitButton = docum
 
 function handleFormSubmit(event) {
  event.preventDefault()
- document.querySelector
+ document.querySelector('city')
 }
 
 function fetchCurrentWeather(city) {
